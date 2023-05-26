@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW India</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+    <!-- Main page is inside this container . all others are insode this container -->
+    <div class="container container-a" >
+        <div class="container-float" >
+            <!-- Menu Bar Starts Here -->
+            <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    
+                    <i class="far fa-bars navbar-toggler-icon bg-primary "></i>
+                    </button>
+                        
+                    <div class="collapse navbar-collapse containerunderline " id="navbarNav">
+                        <ul class="navbar-nav ms-start">
+                            <li class="nav-item">
+                            <button class="Menubutton Buttonhover" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="Menubutton Buttonhover " href="About.html">ABOUT</button>
+                            </li>
+                            <li class="nav-item">
+                            <button class="Menubutton Buttonhover " href="Product.html"> PRODUCT</a>
+                            </li>
+                            <li class="nav-item">
+                            <button class="Menubutton Buttonhover " href= "Gallery.html">GALLERY </a>
+                            </li>
+                            <li class="nav-item">
+                            <button class="Menubutton Buttonhover " href="Contact.html" > CONTACT</a>
+                            </li>
+                        </ul>
+                            
+                            
+                            <div class="text-white">
+                            <hr>
+                            </div>
+                            
+                            
+                    </div>
+                </div>
+            </nav>    
+        </div>
+        
+
+    </div>
+    <!-- left and right tile comes here  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-6" style="padding: 0px;">
+                <!-- Image Tile -->
+                <div class="card">
+                    <img src="./BMW/bmw right.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay ">
+                        <h5 class="card-title aligntextbottom text-white headingfont">THE FIRST EVER X3 M40IxDRIVE</h5>
+                        <button type="button" class="Navbutton ">Know More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6" style="padding: 0px;">
+                <div class="card">
+                    <img src="./BMW/left tilw bmw.jpg" class="card-img-top" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-white headingfont">THE NEW BMW X1</h5>
+                        <button type="button" class="Navbutton ">Know More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- left and right tile closes here  -->
+    <div class="container">
+        <div class="container-float " style= "width :100%">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active " data-bs-toggle="collapse" aria-current="page" href="#Submenu" aria-expanded="false" aria-controls="Submenu" onclick="toggleDiv()" >Series </a>
+                    <div class="collapse collapsesize" id="Submenu" style="width: 100%;">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <div class="d-flex justify-content-evenly container-float bg-whit hidden" id="seriessub" >
+                                    <a class=" nav-link text-dark fw-bold" data-bs-toggle="collapse"  aria-current="#Submenu" onclick="toggleDiv()"   href="#Minmenu" aria-expanded="false" aria-controls="Minmenu">All</a>
+                                    <a class=" nav-link text-dark fw-bold" data-bs-toggle="collapse"  aria-current="#Submenu" onclick="toggleDiv()"  href="#Minmenu" aria-expanded="false" aria-controls="Minmenu">I</a>
+                                    <div class=" model justify-content-evenly container-float "  style="width: 100px;" >
+                                 </div> 
+                              </div>
+                            </li>
+                        </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" data-bs-toggle="collapse"aria-current="page"   href="#bodymenupanel" aria-expanded="false" onclick="toggleDiv()" aria-controls ="bodymenupanel">Body Types</a>
+                </li>
+    
+              </ul>
+        </div>
+        </div>
+    </div>
+    <!-- Series Menu Ends here  -->
+    <div class="container d-flex justify-content-evenly " >
+        <div class = "collapse " id=Minmenu style="width: 100rem;">
+          
+            <div class="container d-flex justify-content-evenly ">
+              <!-- *********************** -->
+             
+              <div class="card iseries m-zedan" id="card1"  style="width: 18rem;">
+                <img src="./BMW/cosySec (1).webp" class="figure-img img-fluid rounded" alt="Model">
+                <div class="card-body">
+                  <h5 class="card-title">HE FIRST-EVER X3 M40i PETROL</h5>
+                  <p class="card-text">Starting from ₹ 8,650,000.</p>
+                  <a href="#" class="btn btn-outline-secondary">Configure&Price</a>
+                  <a href="#" class="btn btn-outline-secondary">Show More </a>
+                </div>
+              </div>
+
+              <div class="card iseries m-zedan" id="card2" style="width: 18rem;">
+                <img src="./BMW/cosySec (2).webp" class="figure-img img-fluid rounded" alt="Model">
+                <div class="card-body">
+                  <h5 class="card-title">THE NEW BMW X7</h5>
+                  <p class="card-text">PETROL •DIESEL.</p>
+                  <p class="card-text">Starting from ₹ 12,200,000 .</p>
+                  <a href="#" class="btn btn-outline-secondary">Configure&Price</a>
+                  <a href="#" class="btn btn-outline-secondary">Show More </a>
+                </div>
+              </div>
+              
+              
+              <div class="card xseries m-XUV" id="card3" style="width: 18rem;">
+                <img src="./BMW/cosySec.webp" class="figure-img img-fluid rounded" alt="Model">
+                <div class="card-body">
+                  <h5 class="card-title">BMW X5</h5>
+                  <p class="card-text">PETROL •DIESEL.</p>
+                  <p class="card-text">Starting from ₹ 12,200,000 .</p>
+                  <a href="#" class="btn btn-outline-secondary">Search and Buy Online</a>
+                  <a href="#" class="btn btn-outline-secondary">Show more</a>
+                </div>
+              </div>
+              
+              
+              <div class="card iseries m-XUV" id="card4" style="width: 18rem;">
+                <img src="./BMW/cosySec (8).webp" class="figure-img img-fluid rounded" alt="Model">
+                <div class="card-body">
+                  <h5 class="card-title">THE BMW X3</h5>
+                  <p class="card-text">•DIESEL.</p>
+                  <p class="card-text">Starting from ₹ 67,50,000 .</p>
+                  <a href="#" class="btn btn-outline-secondary">Configure & price</a>
+                  <a href="#" class="btn btn-outline-secondary">Show more</a>
+                </div>
+              </div>
+              
+             
+              <div class="card xseries m-XUV" id="card5" style="width: 18rem;">
+                <img src="../BMW/cosySec (9).webp" class="figure-img img-fluid rounded" alt="Model">
+                <div class="card-body">
+                  <h5 class="card-title">THE NEW BMW X1</h5>
+                  <p class="card-text">PETROL •DIESEL.</p>
+                  <p class="card-text">Starting from ₹ 45,90,000 .</p>
+                  <a href="#" class="btn btn-outline-secondary">Configure & price</a>
+                  <a href="#" class="btn btn-outline-secondary">Show more</a>
+                </div>
+              </div>
+            
+              <div class="card xseries M-HATCH" id="card6" style="width: 18rem;">
+                <img src="./BMW/cosySec (6).webp" class="figure-img img-fluid rounded" alt="Model">
+                <div class="card-body">
+                  <h5 class="card-title">THE BMW iX</h5>
+                  <p class="card-text">FULL ELECTRIC.</p>
+                  <p class="card-text">Starting from ₹ 1,21,00,000 .</p>
+                  <a href="#" class="btn btn-outline-secondary">Configure & price</a>
+                  <a href="#" class="btn btn-outline-secondary">Show more</a>
+                </div>
+              </div>
+            <!-- ********************* -->
+            </div>
+            <!-- Body type Dialoguebox start-->
+            <div class="collapse" id="bodytype" style="width:100rem;">
+                <div class=" bodytype container d-flex justify-content-evenly " >
+                
+                  <div ></div>
+                  
+                  <figure class="figure align">
+                  <img src="./BMW/cosySec (1).webp" class="figure-img img-fluid rounded" alt="Model">
+                  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+                <figure class="figure align">
+                  <img src="./BMW/cosySec (2).webp(1)" class="figure-img img-fluid rounded" alt="Model">
+                  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+                <figure class="figure align">
+                  <img src="./BMW/cosySec (6).webp" class="figure-img img-fluid rounded" alt="Model">
+                  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+                <figure class="figure align">
+                  <img src="./BMW/cosySec (9).webp" class="figure-img img-fluid rounded" alt="Model">
+                  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+              </div>
+        
+            </div>
+            <!-- Body type Dialoguebox Ends-->
+              
+          </div>
+          <div class="collapse" id="bodymenupanel">
+            <div class=" d-flex justify-content-evenly  ">
+                <a class=" nav-link text-dark fw-bold" id="XUV" data-bs-toggle="collapse"  aria-current="#bodymenupanel"   href="#Zedan" aria-expanded="false" aria-controls="Zedan">XUV</a>
+            
+                <a class=" nav-link text-dark fw-bold" data-bs-toggle="collapse"  aria-current="#Submenu"   href="#Zedan " href="XUV" aria-expanded="false" aria-controls="Zedan">ZEDAN</a>
+                <a class=" nav-link text-dark fw-bold" data-bs-toggle="collapse"  aria-current="#Submenu"   href="#MULTI" aria-expanded="false" aria-controls="MULTI">MULTI</a>
+              
+                <div>
+              </div>  
+            </div>
+          </div>
+    </div>
+    <div class="collapse container " id="Zedan" style="width: 100rem;">
+        <div class="d-flex justify-content-evenly">
+          <figure class="figure align">
+            <img src="./BMW/cosySec (1).webp" class="figure-img img-fluid rounded" alt="Model">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </figure>
+          <figure class="figure align">
+            <img src="./BMW/cosySec (2).webp" class="figure-img img-fluid rounded" alt="Model">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </figure>
+          <figure class="figure align">
+            <img src="./BMW/cosySec (6).webp" class="figure-img img-fluid rounded" alt="Model">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </figure>
+          <figure class="figure align">
+            <img src="./BMW/cosySec (9).webp" class="figure-img img-fluid rounded" alt="Model">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </figure>
+  
+        </div>
+      </div>
+      <!-- Zedan tile End-->
+      <!-- Multi tile-->
+      <div class="collapse" id="MULTI" style="width: 100rem;">
+          <div class="d-flex justify-content-evenly container">
+            <figure class="figure align">
+              <img src="./BMW/cosySec (3).webp" class="figure-img img-fluid rounded" alt="Model">
+              <figcaption class="figure-caption">A caption for the above image.</figcaption>
+            </figure>
+            <figure class="figure align">
+              <img src="/BMW/cosySec (3).webp" class="figure-img img-fluid rounded" alt="Model">
+              <figcaption class="figure-caption">A caption for the above image.</figcaption>
+            </figure>
+            <figure class="figure align">
+              <img src="./BMW/cosySec (4).webp" class="figure-img img-fluid rounded" alt="Model">
+              <figcaption class="figure-caption">A caption for the above image.</figcaption>
+            </figure> 
+            <figure class="figure align">
+              <img src="./BMW/cosySec (2).webp" class="figure-img img-fluid rounded" alt="Model">
+              <figcaption class="figure-caption">A caption for the above image.</figcaption>
+            </figure> 
+  
+          </div>
+      </div>
+      <!-- Multi tile Ends Here -->
+      <!--Clevel Grid  -->
+      <div class="container d-flex justify-content-evenly">
+        <div class="row rowheight">
+          <div class="col-6 ">
+            <div class="card">
+              <img src="./BMW/PORCHE (1).jpg" style="height: 400px;" class=" figure-img img-fluid rounded" alt="..." >
+              <div class="card-body"  style="width: 18rem;" >
+                <h2>All new model</h2>
+                
+                <BUtton class="Navbutton"> <a   href="#"> Know More</a></BUtton>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <img src="./BMW/C SUPPORT.jpg" style="height: 400px;" class=" figure-img img-fluid rounded" alt="...">
+              <div class="card-body"  style="width: 18rem;">
+                <h2>Buy Online</h2>
+                <BUtton class="Navbutton"> <a   href="#"> Know More</a></BUtton>
+              </div>
+            </div>
+  
+            </div>
+          </div>
+        </div>
+
+        <div class="container ">
+            <div class="card" >
+              <div class="row">
+                <div class="col-6">
+                  <img src="./BMW/C SUPPORT.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <h1>BMW FINANCIAL SERVICE</h1>
+                  <P>Your new BMW is within reach. All you need is the perfect financial solution with tailor-made finance options.</P>
+                  <BUtton class="Navbutton " >  <a   href="#">FIND OUT MORE </a>  </BUtton>
+                </div>
+                <div class="col-6">
+                  <img src="./BMW/C SUPPORT.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <h1>MW EXCELLENCE CLUB</h1>
+                  <P>A members-only platform that curates tailored experiences from the world of luxury, travel, lifestyle, and sports. BMW Excellence Club is a harmonious mélange of the finest luxuries and lifestyle privileges from around the world.</P>
+                  <BUtton class="Navbutton ">  <a href="#">FIND OUT MORE </a>  </BUtton>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="container d-flex justify-content-evenly">
+              <button class="navigator text-secondary fw-bold Buttonhover">
+                <img src="./BMW/BMW_White_Logo.svg" alt="" style="width: 30%; height: 30%;"> <br>
+                Buy Online
+              </button>
+              <button class="navigator text-secondary fw-bold Buttonhover">
+                <img src="" alt=""> Book a test drive</button>
+              <button class="navigator text-secondary fw-bold Buttonhover"> FInd a deler </button>
+              <button class="navigator text-secondary fw-bold Buttonhover"> Current Offers</button>
+              <button class="navigator text-secondary fw-bold Buttonhover"> BMW Group Carriers</button>   
+            </div>
+            
+          </div>
+    <script src="./js/bootstrap.js"> </script>
+    <script src="./java.js" ></script>
+</body>
+</html>
